@@ -1,7 +1,5 @@
 
 
-
-
 body, ul {
     margin: 0;
     padding: 0;
@@ -185,7 +183,7 @@ p{
     max-width: 900px;
     padding: 30px;
     box-shadow: 0 0 20px rgba(rgb(26, 82, 12),0,0,0.4);
-    background: darkgreen;
+    background: rgb(95, 165, 95);
     color: rgb(255, 253, 253);
     border-radius: 8px;
 
