@@ -11,20 +11,21 @@
     
       
     })
-    wavesurfer.load('10 Minute Mindfullness Meditation.mp3');
+    wavesurfer.load('musics/10 Minute Mindfullness Meditation.mp3');
     playBtn.onclick=function(){
       wavesurfer.playPause();
-      if(playBtn.src.includes("kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png")){
-        playBtn.src="pause-icon-29584.png";
+      if(playBtn.src.includes("images/kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png")){
+        playBtn.src="images/pause-icon-29584.png";
       }else{
-        playBtn.src="kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png";
+        playBtn.src="images/kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png";
     
       }
     }
     wavesurfer.on('finsh', function(){
-      playBtn.src="kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png";
+      playBtn.src="images/kisspng-youtube-play-button-clip-art-pause-button-5ac1a853c6c212.9168316215226409798141.png";
       wavesurfer.stop();
     
     
     })
+    
     
