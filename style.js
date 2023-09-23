@@ -4,7 +4,7 @@
           var wavesurfer = WaveSurfer.create({
       container: '#waveform',
       waveColor: 'white',
-      progressColor: 'light green',
+      progressColor: 'green',
       barWidth: 4,
       responsive:true,
       height:90,
