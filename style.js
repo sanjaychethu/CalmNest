@@ -1,6 +1,7 @@
 
           var playBtn=document.getElementById("playBtn");
-          const wavesurfer = WaveSurfer.create({
+          
+          var wavesurfer = WaveSurfer.create({
       container: '#waveform',
       waveColor: 'white',
       progressColor: 'light green',
