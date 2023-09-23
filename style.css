@@ -6,11 +6,16 @@ body, ul {
     
 
     
+} 
+img{
+    box-shadow: 20px solid darkgreen;
 }
+
 
 .logo{
     width: 50px;
     height:50px;
+    background: transparent;
 }
 .user-actions{
     display: flex;
@@ -22,7 +27,8 @@ body, ul {
 }
 #login{
     display: flex;
-    background-color: darkgreen;
+    background: radial-gradient(circle at 10% 20%, rgb(50, 172, 109) 0%, rgb(209, 251, 155) 100.2%);
+
     justify-content: center;
     align-items: center;
     
@@ -34,7 +40,9 @@ body, ul {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: darkgreen;
+    
+    background: radial-gradient(circle at 10% 20%, rgb(50, 172, 109) 0%, rgb(209, 251, 155) 100.2%);
+
     
 }
 .header {
@@ -58,14 +66,8 @@ body, ul {
 
 .nav li {
     margin-right: 20px;
+    background: transparent;
     
-}
-
-.nav a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    font-family: 'IBM Plex Sans', sans-serif;
 }
 nav{
     display: flex;
@@ -76,8 +78,19 @@ nav{
 
 }
 
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: poppins;
+    font-weight: 750;
+    background: transparent;
+    gap: 10px;
+}
+
 .user-actions button {
-    background-color: #9fd8a5;
+    box-shadow: 0 0 20px rgba(rgb(26, 82, 12),0,0,0.4);
+    background: rgb(95, 165, 95);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -85,7 +98,7 @@ nav{
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 200px) {
     .user-actions button {
         padding: 8px 16px;
     }
@@ -102,6 +115,7 @@ body, h2, p, ul {
     justify-content: space-around;
     align-items: center;
     margin: 20px;
+
 }
 
 /* Style individual pricing cards */
@@ -111,6 +125,7 @@ body, h2, p, ul {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 .pricing-card h2 {
@@ -147,6 +162,8 @@ body, h2, p, ul {
 }
 .lead{
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
 }
 .icon-link{
     color:#153711 ;
@@ -156,13 +173,23 @@ body, h2, p, ul {
 }
 h2{
     font-family: 'Kanit', sans-serif;
+    font-weight: 300;
     
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+  
+   
 }
 h3{
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
 }
 p{
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+   
 
 }
 .material-symbols-outlined {
@@ -178,21 +205,23 @@ p{
 /*first commit*/
 
 .hero{
-    width:100%;
-    height:100vh;
-    background-color: #ffffff;
+    width: 100%;
+    height:100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    justify-items: center;
+    margin-top: 10px;
+
     
 }
 .music{
     width: 90%;
     max-width: 900px;
     padding: 30px;
-    box-shadow: 0 0 20px rgba(rgb(26, 82, 12),0,0,0.4);
-    background: rgb(95, 165, 95);
+    background: radial-gradient(circle at 10% 20%, rgb(50, 172, 109) 0%, rgb(209, 251, 155) 100.2%);
+
     color: rgb(255, 253, 253);
     border-radius: 8px;
 
@@ -221,14 +250,20 @@ p{
     margin-right: 30vh;
 
 }
+
+    
+    
+
 .med-heading h1{
-    background-color: darkgreen;
+    background: radial-gradient(circle at 10% 20%, rgb(50, 172, 109) 0%, rgb(209, 251, 155) 100.2%);
+
     color: white;
     border-radius: 10px;
     justify-content: center;
     justify-items: center;
     align-items: center;
     padding: 10px;
+    
 }
 .med-heading{
     justify-content: center;
@@ -238,9 +273,10 @@ p{
     padding:0;
     
 }
-.hr{
-    background-color: darkgreen;
-    box-shadow: #153711;
-    
+.fs-2 text-body-emphasis{
+    box-shadow: 0 0 20px rgba(rgb(26, 82, 12),0,0,0.4);
+    background: rgb(95, 165, 95); ;
 }
+
+
 
